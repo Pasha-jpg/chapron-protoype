@@ -45,7 +45,7 @@ h2 {
 @font-face {
   font-family: Scriptina;
   src: url(../fonts/scriptin.ttf);
-
+  src: url(../fonts/scriptin.woff) format("woff");
 }
 
 @font-face {
