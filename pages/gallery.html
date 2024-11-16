@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CHAPRON|Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CHAPRON is collection of henry chapron designs art work">
+    <link rel="canonical" href="#">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="#">
+    <link rel="shortcut icon" type="image/png" href="../images/chapron-logo.png">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="icon" href="../favicon.png">
+    <meta http-equiv="Content-Security-Policy" content="img-src 'self' https://i.creativecommons.org https://licensebuttons.net ;">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="heading1" >
+        <h1>Chapron collection</h1>
+      </div>
+      <div class="nav">
+        <nav class="global-nav">
+          <ol>
+            <li>
+              <a href="../index.html">Home</a>
+            </li>
+            <li>
+              <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="https://wordpress.com/log-in/">Blog</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="../admin/index.html">Admin</a>
+            </li>
+          </ol>
+        </nav>
+        <!--global nav ends-->
+        <a href="../admin/index.html" aria-label="admin-menu">
+          <img src="../images/admin.jpg" id="admin" alt="administrator page" >
+        </a>
+      </div>
+      <!--nav-->
+      <div class="media-nav">
+        <!-- Simulate a smartphone / tablet -->
+        <div class="mobile-container">
+          <!-- Top Navigation Menu -->
+          <div class="topnav">
+            <h1 class="active">Chapron Collection</h1>
+            <div id="myLinks">
+              <a href="../index.html">Home</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="about.html">About</a>
+              <a href="https://wordpress.com/log-in/">Blog</a>
+              <a href="contact.html">Contact</a>
+              <a href="login.html">Login</a>
+              <a href="../admin/index.html" aria-label="admin-homepage">Admin</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" aria-label="hamburger-menu" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End smartphone / tablet look -->
+    </header>
+    <div class="main">
+      <div class="grid-body" >
+        <div class="control" >
+          <div class="btn-group">
+            <label for="man" aria-label="Manufacturer"></label>
+            <select name="make" id="man">
+              <option value="0">Manufacturer</option>
+              <option value="citroen">citroen</option>
+              <option value="Delhyde">delhyde</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+            <label for="mod" aria-label="label"></label>
+            <select name="model" id="mod">
+              <option value="0">Model</option>
+              <option value="Pre-citroen">pre-citroen</option>
+              <option value="Presidentialle">Presidentialle</option>
+              <option value="Croisette">Croisette</option>
+              <option value="le Paris">le Paris</option>
+            </select>
+            <label for="year" aria-label="year"></label>
+            <select name="year" id="year">
+              <option value="0">Year</option>
+              <option value="1940">1940's</option>
+              <option value="1950">1950's</option>
+              <option value="1960">1960's</option>
+              <option value="1970">1970's</option>
+            </select>
+          </div>
+          <input type="text" placeholder="Search" id="search" aria-label="search">
+        </div>
+        <div class="container" role="tablist" >
+          <div class="box" data-item="Manufacturer" role=tab tabindex="0">
+            <img src="../slides/c1.jpg" alt="c1 design">
+          </div>
+          <div class="box" data-item="cit">
+            <img src="../slides/c2.jpg" alt="c2 design" role=tab tabindex="0">
+          </div>
+          <div class="box" data-item="cit">
+            <img src="../slides/c3.jpg" alt="c3 design" role=tab tabindex="0">
+          </div>
+          <div class="box" data-item="cit">
+            <img src="../slides/c4.jpg" alt="c4 design" role=tab tabindex="0">
+          </div>
+          <div class="box" data-item="cit">
+            <img src="../slides/c5.jpg" alt="c5 design" role=tab tabindex="0">
+          </div>
+          <div class="box" data-item="cit">
+            <img src="../slides/c6.jpg" alt="c6 design" role=tab tabindex="0">
+          </div>
+          <div class="box" data-item="cit">
+            <img src="../slides/c7.jpg" alt="c7 design" role=tab tabindex="0">
+          </div>
+          <div class="box" data-item="cit">
+            <img src="../slides/c8.jpg" alt="c8 design" role=tab tabindex="0">
+          </div>
+          <div class="box" data-item="del">
+            <img src="../slides/c9.jpg" alt="c9 design" role=tab tabindex="0">
+          </div>
+        </div>
+        <!--container-->
+      </div>
+      <!--grid-body-->
+    </div>
+    <!--main-->
+    <footer >
+      <p role="tablist">
+        <img src="../images/chapron-logo.png" id="sl" alt="chapron logo"> The Chapron Collection 
+        <span role=tab tabindex="0">Copyright 2024 Guido J.Verschoor</span>
+      </p>
+    </footer>
+    <script src="../js/script.js"></script>
+    <script>
+      const buttons = document.querySelectorAll('.btn');
+      const boxes = document.querySelectorAll('.box');
+      const searchBox = document.querySelector("#search");
+      /* Search Product by Textbox */
+      searchBox.addEventListener('keyup', (e) => {
+        searchText = e.target.value.toLowerCase().trim();
+        boxes.forEach((box) => {
+          const data = box.dataset.item;
+          if (data.includes(searchText)) {
+            box.style.display = 'block';
+          } else {
+            box.style.display = 'none';
+          }
+        });
+        buttons.forEach((button) => {
+          button.classList.remove('btn-clicked');
+        });
+        buttons[0].classList.add('btn-clicked');
+      });
+      buttons.forEach((button) => {
+        button.addEventListener('click', (e) => {
+          e.preventDefault();
+          setActiveBtn(e);
+          const btnfilter = e.target.dataset.filter;
+          boxes.forEach((box => {
+            if (btnfilter == 'all') {
+              box.style.display = "block";
+            } else {
+              const boxfilter = box.dataset.item;
+              if (btnfilter == boxfilter) {
+                box.style.display = "block";
+              } else {
+                box.style.display = "none";
+              }
+            }
+          }));
+        });
+      });
+
+      function setActiveBtn(e) {
+        buttons.forEach((button) => {
+          button.classList.remove('btn-clicked');
+        });
+        e.target.classList.add('btn-clicked');
+      }
+    </script>
+  </body>
+</html>
