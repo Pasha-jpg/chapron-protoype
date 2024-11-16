@@ -25,7 +25,7 @@ h1 {
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #880000;
   font-family: Scriptina;
-  font-size: 5vw;
+  font-size: 4vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -53,7 +53,7 @@ h2 {
 }
 
 .heading1 {
-  width: 40%;
+  width: 30%;
   float: left;
   margin-left: 5%;
 }
