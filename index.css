@@ -40,9 +40,9 @@ h2 {
 
 @font-face {
   font-family: Scriptina;
-  src: url(../../fonts/scriptin.ttf);
-  src: url(fonts/scriptin.woff) format("woff");
-  src: url(fonts/scriptin.woff2) format("woff2");
+  src: url(fonts/SCRIPTIN.ttf);
+  src: url(fonts/SCRIPTIN.woff) format("woff");
+  src: url(fonts/SCRIPTIN.woff2) format("woff2");
 
 }
 
