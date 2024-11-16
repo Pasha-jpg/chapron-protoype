@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CHAPRON|French automobile designer and coachbuilder</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CHAPRON is collection of henry chapron designs art work">
+    <link rel="canonical" href="#">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="#">
+    <link rel="shortcut icon" type="image/png" href="images/chapron-logo.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="favicon.png">
+    <meta http-equiv="Content-Security-Policy" content="img-src 'self' https://i.creativecommons.org https://licensebuttons.net ;">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+    <!--body-->
+  <body>
+    <header>
+      <div class="heading1" >
+        <h1>Chapron collection</h1>
+      </div>
+      <div class="nav">
+        <nav class="global-nav">
+          <ol>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="pages/gallery.html">Gallery</a>
+            </li>
+            <li>
+              <a href="pages/about.html">About</a>
+            </li>
+            <li>
+              <a href="https://wordpress.com/log-in/">Blog</a>
+            </li>
+            <li>
+              <a href="pages/contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="pages/login.html">Login</a>
+            </li>
+          </ol>
+        </nav>
+        <!--global nav ends-->
+        <a href="admin/index.html">
+          <img src="images/admin.jpg" id="admin" alt="administrator page">
+        </a>
+      </div>
+      <!--nav-->
+      <div class="media-nav">
+        <!-- Simulate a smartphone / tablet -->
+        <div class="mobile-container">
+          <!-- Top Navigation Menu -->
+          <div class="topnav">
+            <h1 class="active">Chapron Collection</h1>
+            <div id="myLinks">
+              <a href="index.html">Home</a>
+              <a href="pages/gallery.html">Gallery</a>
+              <a href="pages/about.html">About</a>
+              <a href="https://wordpress.com/log-in/">Blog</a>
+              <a href="pages/contact.html">Contact</a>
+              <a href="pages/login.html">Login</a>
+              <a href="admin/index.html" aria-label="adminhome">Admin</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" aria-label="hamburger-menu" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End smartphone / tablet look -->
+    </header>
+    <div class="main">
+      <div class="A">
+        <div class="container" role="tablist">
+          <img src="images/carmain.png" alt="car background" id="car1">
+          <div class="centered" role="tab" tabindex="0">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Explore the artistry of <strong>Guido J. Verschoor</strong>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp;as we take a <span>unique journey</span>
+              <br> &nbsp;&nbsp;&nbsp;&nbsp;through the legacy and Craftsmanship of&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;&nbsp;&nbsp; <strong>Henri Chapron Carrossierie.</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+          </div>
+        </div>
+        <!--container-->
+        <div class="list-wrapper" oncontextmenu="disableRightClick(event)" role="tablist">
+          <ul class="list">
+            <li class="item">
+              <div class="content">
+                <img src="slides/c1.jpg" alt="drawing of c1" style="width:100%">
+              </div>
+            </li>
+            <li class="item">
+              <div class="content">
+                <img src="slides/c2.jpg" alt="drawing of c2" style="width:100%">
+              </div>
+            </li>
+            <li class="item">
+              <div class="content">
+                <img src="slides/c3.jpg" alt="drawing of c3" style="width:100%">
+              </div>
+            </li>
+            <li class="item">
+              <div class="content">
+                <img src="slides/c4.jpg" alt="drawing of c4" style="width:100%">
+              </div>
+            </li>
+            <li class="item">
+              <div class="content">
+                <img src="slides/c5.jpg" alt="drawing of c5" style="width:100%">
+              </div>
+            </li>
+            <li class="item">
+              <div class="content">
+                <img src="slides/c6.jpg" alt="drawing of c6" style="width:100%">
+              </div>
+            </li>
+            <li class="item">
+              <div class="content">
+                <img src="slides/c7.jpg" alt="drawing of c7" style="width:100%">
+              </div>
+            </li>
+            <li class="item">
+              <div class="content">
+                <img src="slides/c8.jpg" alt="drawing of c8" style="width:100%">
+              </div>
+            </li>
+            <li class="item">
+              <div class="content">
+                <img src="slides/c9.jpg" alt="drawing of c9" style="width:100%">
+              </div>
+            </li>
+          </ul>
+          <!-- We're calling `handleClick` with a direction argument when the buttons are clicked -->
+          <button onclick="handleClick('previous')" class="button button--previous" type="button"
+           aria-label="previous" role="tab" tabindex="0">
+           ➜
+          </button>
+          <button onclick="handleClick('next')" class="button button--next" type="button" 
+           aria-label="next" role="tab" tabindex="0">
+            ➜
+          </button>
+        </div>
+        <!--list-wrapper-->
+        <div class="Carousel">
+          <div class="slideshow-container" oncontextmenu="disableRightClick(event)">
+            <div class="mySlides">
+              <img src="slides/c1.jpg" alt="slide of c1" style="width:100%">
+              <div class="text">1972 Citroen DS21</div>
+            </div>
+            <div class="mySlides">
+              <img src="slides/c2.jpg" alt="slide of c2" style="width:100%">
+              <div class="text">1960 Citroen DS19</div>
+            </div>
+            <div class="mySlides">
+              <img src="slides/c3.jpg" alt="slide of c3" style="width:100%">
+              <div class="text">1968 Citroen DS23</div>
+            </div>
+            <div class="mySlides">
+              <img src="slides/c4.jpg" alt="slide of c4" style="width:100%">
+              <div class="text">1971 Citroen SM opera</div>
+            </div>
+            <div class="mySlides">
+              <img src="slides/c5.jpg" alt="slide of c5" style="width:100%">
+              <div class="text">1984 Citroen CX Softtop</div>
+            </div>
+            <div class="mySlides">
+              <img src="slides/c6.jpg" alt="slide of c6" style="width:100%">
+              <div class="text">1978 Citroen CX laundaulet</div>
+            </div>
+            <div class="mySlides">
+              <img src="slides/c7.jpg" alt="slide of c7" style="width:100%">
+              <div class="text">1972 Citroen SM Mylord</div>
+            </div>
+            <div class="mySlides">
+              <img src="slides/c8.jpg" alt="slide of c8" style="width:100%">
+              <div class="text">1955 Citroen 15 Six H</div>
+            </div>
+            <div class="mySlides">
+              <img src="slides/c9.jpg" alt="slide of c9" style="width:100%">
+              <div class="text">1930 Delage D8S</div>
+            </div>
+          </div>
+          <!--slideshow-->
+          <br>
+          <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+        <!--carasoul-->
+        <div class="book" >
+          <div class="lib">
+            <p>Add the <br>
+              <strong>chapron collection</strong>
+              <br>to your library <br>
+              <span>
+                <strong>out now!</strong>
+              </span>
+            </p>
+          </div>
+          <!--lib-->
+          <aside> &nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/book-chapron.png" id="gb" alt="guido book">
+          </aside>
+          <div class="pur">
+            <p>
+              <a href="#">PURCHASE BOOK</a>
+            </p>
+          </div>
+          <!--pur-->
+        </div>
+        <!--book-->
+      </div>
+      <!--A-->
+    </div>
+    <!--main-->
+    <footer>
+      <p>
+        <img src="images/chapron-logo.png" id="sl" alt="chapron logo"> The Chapron Collection <span>Copyright 2024 Guido J.Verschoor</span>
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script>
+      const list = document.querySelector(".list");
+      // We want to know the width of one of the items. We'll use this to decide how many pixels we want our carousel to scroll.
+      const item = document.querySelector(".item");
+      const itemWidth = item.offsetWidth;
+
+      function handleClick(direction) {
+        // Based on the direction we call `scrollBy` with the item width we got earlier
+        if (direction === "previous") {
+          list.scrollBy({
+            left: -itemWidth,
+            behavior: "smooth"
+          });
+        } else {
+          list.scrollBy({
+            left: itemWidth,
+            behavior: "smooth"
+          });
+        }
+      }
+    </script>
+  </body>
+</html>
