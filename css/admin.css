@@ -260,7 +260,9 @@ footer span {
     width: 50%;
   }
 
-  
+ h1 {
+   font-size: medium;
+  }
   .ad {
 
     width: 100%;
