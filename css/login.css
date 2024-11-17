@@ -324,12 +324,12 @@ footer span {
           padding: 2%;
          
         }
-    .main{margin-top: 5%; padding: 0%;}
+    .main{margin-top: 10%; padding: 5%;}
     .container {
 		 width: 80%;
 		  padding: 5%;		  
 		  margin: auto;
-      margin-top: 5%;
+                   margin-top: 5%;
 		  border: 2px solid #DFAF37;
 		  box-sizing: border-box;
 		}
