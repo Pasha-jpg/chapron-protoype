@@ -255,9 +255,9 @@ footer span {
     font-size: small;
     width: 50%;
   }
-  .heading1{width: 50%; display: none;}
+  .heading1{ display: none;}
 
-  h1{font-size: small;float:left;}
+  h1{font-size: small;;}
   .ad {
 
     width: 100%;
