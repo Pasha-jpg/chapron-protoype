@@ -242,7 +242,7 @@ footer span {
   .nav {
     display: block;
     width: 100%;
-    margin-top: 8%;
+    margin-top: 5%;
   }
 
   
@@ -255,9 +255,9 @@ footer span {
     font-size: small;
     width: 50%;
   }
-  .heading1{width: 80%; display: none;}
+  .heading1{width: 50%; display: none;}
 
-  h1{font-size: medium;}
+  h1{font-size: small;}
   .ad {
 
     width: 100%;
