@@ -324,7 +324,7 @@ footer span {
           padding: 2%;
          
         }
-    .main{margin-top: 10%; padding: 5%;}
+    .main{border:1px soild red;}
     .container {
 		 width: 80%;
 		  padding: 5%;		  
