@@ -255,7 +255,7 @@ footer span {
     font-size: small;
     width: 50%;
   }
-  .heading1{width: 80%; display: block;}
+  .heading1{width: 80%; display: none;}
 
   h1{font-size: medium;}
   .ad {
