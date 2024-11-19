@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	  <title>CHAPRON|Contact</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="description" content="CHAPRON is collection of henry chapron designs art work">
+          <link rel="canonical" href="#">
+          <link rel="alternate" media="only screen and (max-width: 640px)" href="#">
+          <link rel="shortcut icon" type="image/png" href="../images/chapron-logo.png">
+          <link rel="stylesheet" href="../css/contact.css">
+          <link rel="icon" href="../favicon.png">
+          <meta http-equiv="Content-Security-Policy" content="img-src 'self' https://i.creativecommons.org https://licensebuttons.net ;"> 
+          <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body >
+      <header>
+        <div class="heading1">
+                <h1>Chapron collection</h1>
+             </div>
+             
+             <div class="nav">         
+              <nav class="global-nav">
+                   <ol>
+                      <li><a href="../index.html" >Home</a></li>                  
+                      <li><a href="gallery.html" >Gallery</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="https://wordpress.com/log-in/" >Blog</a></li>
+                      <li><a href="contact.html" >Contact</a></li>
+                      <li><a href="login.html" >Login</a></li>
+                      
+                   </ol>
+              </nav>      <!--global nav ends-->
+              <a href="../admin/index.html" aria-label="admin-menu" > 
+                 <img src="../images/admin.jpg" id="admin" alt="administrator page"> 
+              </a>
+            </div>      <!--nav-->
+            <div class="media-nav">
+                <!-- Simulate a smartphone / tablet -->
+                <div class="mobile-container">
+
+                   <!-- Top Navigation Menu -->
+                   <div class="topnav">
+                     <h1 class="active">Chapron Collection</h1>
+                     <div id="myLinks">
+                       <a href="../index.html">Home</a>
+                       <a href="gallery.html">Gallery</a>
+                       <a href="about.html">About</a>
+                       <a href="https://wordpress.com/log-in/">Blog</a>
+                       <a href="contact.html">Contact</a>
+                       <a href="login.html">Login</a>
+                       <a href="../admin/index.html" aria-label ="adminhome">Admin</a>
+                     </div>
+                     <a href="javascript:void(0);" class="icon" aria-label="hamburger-menu" onclick="myFunction()">
+                       <i class="fa fa-bars"></i>
+                     </a>
+                   </div>                
+                </div> 
+             </div>     
+
+              <!-- End smartphone / tablet look -->
+        
+      </header>
+      <div class="main" id="main">
+                   
+            <div class="grid">             
+                  <div class="form-body" >
+                      <form action="action_page.php" method="post" id="theForm">
+                       <fieldset><legend></legend>
+
+                           <h2>Contact Me</h2>
+                           <div class="two">
+                              <label for="firstName">First Name </label>
+                              <input type="text" name="first_name" id="firstName"  >
+                           </div>
+                           <div class="two">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="last_name" id="lastName" >
+                          </div>
+                           <div class="two">
+                             <label for="email">Email Address</label>
+                             <input type="email" name="email" id="email" >
+                           </div>                                             
+                           <div class="two">
+                              <label for="state">Purpose of Enquiry</label>
+                              <select name="state" id="state" >
+                               <option value="null">Select</option> 
+                               <option value="blog">blog content</option> 
+                               <option value="buy">Buy books</option> 
+                               <option value="buy">upcoming collection</option>
+                               <option value="others">others</option>                                     
+                             </select>
+                           </div>    
+                           <div class="two">
+                              <label for="comments">Comments</label>
+                              <textarea  name="comments" id="comments" ></textarea>
+                           </div>
+                           
+                           
+                           <div class="one">                           
+                              <input type="submit" value="SUBMIT" id="submit" aria-label ="submit" >
+                           </div>
+                         </fieldset>
+                      </form>
+                   </div> <!--form-body--> 
+           </div>                     
+              
+     </div><!--main-->
+
+      <footer oncontextmenu="disableRightClick(event)">
+         
+
+         <p>
+            <img src="../images/chapron-logo.png" id="sl" alt="chapron logo">
+           The Chapron Collection
+
+            <span>Copyright 2024 Guido J.Verschoor</span>
+         </p>
+             
+              
+      </footer>
+      <script src = "../js/script.js" >  </script>
+      
+    </body>
+  </html>
