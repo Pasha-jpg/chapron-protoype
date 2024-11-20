@@ -569,7 +569,7 @@ footer span {
   .topnav #myLinks {
     display: none;
     background: #32403c;
-    width: 20%;
+    width: 80%;
     border-radius: 10px;
     border: 2px solid #DFAF37;
     box-sizing: border-box;
@@ -585,7 +585,7 @@ footer span {
     color: #DBCA98;
     padding: 2%;
     text-decoration: none;
-    font-size: medium;
+    font-size: x-large;
     font-family: opensans;
     display: block;
   }
