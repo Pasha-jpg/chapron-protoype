@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CHAPRON|About</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CHAPRON is collection of henry chapron designs art work">
+    <link rel="canonical" href="#">
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="#">
+    <link rel="shortcut icon" type="image/png" href="../images/chapron-logo.png">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="icon" href="../favicon.png">    
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="heading1" >
+        <h1>Chapron collection</h1>
+      </div>
+      <div class="nav">
+        <nav class="global-nav">
+          <ol>
+            <li>
+              <a href="../index.html">Home</a>
+            </li>
+            <li>
+              <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="https://wordpress.com/log-in/">Blog</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="login.html">Login</a>
+            </li>
+          </ol>
+        </nav>
+        <!--global nav ends-->
+        <a href="../admin/index.html">
+          <img src="../images/admin.jpg" id="admin" alt="administrator page">
+        </a>
+      </div>
+      <!--nav ends-->
+      <div class="media-nav">
+        <!-- Simulate a smartphone / tablet -->
+        <div class="mobile-container">
+          <!-- Top Navigation Menu -->
+          <div class="topnav">
+            <h1 class="active">Chapron Collection</h1>
+            <div id="myLinks">
+              <a href="../index.html">Home</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="about.html">About</a>
+              <a href="https://wordpress.com/log-in/">Blog</a>
+              <a href="contact.html">Contact</a>
+              <a href="login.html">Login</a>
+              <a href="../admin/index.html" aria-label="adminhome">Admin</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" aria-label="hamburger-menu"
+               onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End smartphone / tablet look -->
+    </header>
+      <div class="main">
+       <div class="local-mobnav" >
+         <label for="myList" aria-label="local-mobnav"></label>
+         <select id = "myList" onchange="myAnchor(this.value)">
+            <option value="guido">Guido Verschoor</option>
+            <option value="gbooks">Guido's books</option> 
+            <option value="henry"> Henry chapron</option>
+            <option value="his">History & Carroserrie</option>            
+         </select>
+        </div>
+      <div class="local-nav">
+        <a href="#henry">Henry chapron</a>
+        <a href="#his">History & Carroserrie</a>
+        <a href="#guido">Guido Verschoor</a>
+        <a href="#gbooks">Guido's books</a>
+      </div>
+    
+      <div class="ab">
+        <div id="guido" role="tablist" >
+          <img src="../images/guido.png" id="guidoimage" alt="guido main image for about section">
+          <p role=tab tabindex="0">
+            <strong>Guido Verschoor.</strong>
+            <br>Guido has a deep passion for drawing Chapron Designed cars, <br> a hobby he developed over many decades. He has hand-drawn <br> countless models in this time, evolving his craft with modern digital tools. <br> His meticulous work is a testament to his dedication to <br> capturing the history of Chapron Carrossierie. ...more
+          </p>
+        </div>
+        <!--guido ends-->
+        <div id="gbooks"  role="tablist">
+          <p role=tab tabindex="0">
+            <strong>Guido’s Book.</strong>
+            <br>Guido’s latest book is a collection of his drawings, <br>featuring thousands of Chapron designed car models. <br> This publication condenses his vast archive into a detailed <br> and visually captivating representation, worthy of a place <br>in any enthusiasts collection. ...more
+          </p>
+          
+            <img src="../images/book-chapron.png" id="bookimage" alt="guido book about chapron work">
+         
+        </div>
+        <!--gbooks ends-->
+        <div id="henry" role="tablist" >
+          <img src="../images/henrychapron.png" id="chapron" alt="henry chapron photo for page">
+          <p role=tab tabindex="0"> 
+            <strong>Henri Chapron</strong><br> he is a Carroissieri, or coach builder who has produced some of the most beautiful and exquisite cars. Originally located in Neuilly, France in 1919, Henri Chapron moved to Levallois-Perret, Siene in 1927 and worked there until his retirement in 1986. After the introduction of the Citroën DS in 1955, Citroën wanted to introduce a small number of DS19 Cabriolets. <br> Henri Chapron understood, based on its appearance, that the DS could offer him a variety of interesting models. To entice a significant part of the Citroën clientèle, he proposed several designs, on the basis of the saloon version of the DS 19, to develop luxury cars jointly with Citroën. <br>
+          </p>  
+        </div><!--henry ends-->
+        
+        <div id="his"  role="tablist">
+          <p role=tab tabindex="0">
+            <strong>History</strong><br>
+            Chapron hand built a small number of cars based on Citroën’s mass produced cars, creating a prestigious range of cars for the elite. In October 1958, on Chapron’s stand at the motor show, a strange DS makes its appearance: A cabriolet christened the Croisette, which seated four. <br> As a result of the motor show, Henri Chapron create a second version of the DS, the LeParis whose clean lines would spark the creation of many more models from the workshops of the rue Aristide-Briand . <br> In 1959, Henri Chapron built a prototype cabriolet 2 + 2 based on the Citroën DS, a lighter version of the Croisette. As a result of this proposed by the coach builder, Pierre Bercot, director general of Citroën, decided to integrate the cabriolet DS into the catalogue range from 1960. Chapron would provide the actual manufacture of the cabriolets. <br> So started a great working relationship with Citroën and Henri Chapron. Chapron went onto create special DS saloon models called “Prestige” which included full leather, a bar, a chauffeur window and more. Other models include the LeDandy, Palm Beach, Majesty, LeMan, Lorraine, Opera, Mylord and the special Landaulet models for the SM and CX. Chapron created the Presidentialle models as well.
+          </p>
+        </div>
+      </div>
+      <!--ab-ends-->
+      <div id="bookpurchase">
+        <div class="pur" >
+          <p>
+            <a href="contact.html">PURCHASE BOOK</a>
+          </p>
+        </div>
+        <!--pur ends-->
+      </div>
+    </div>
+    <!--main ends-->
+    <footer oncontextmenu="disableRightClick(event)">
+      <p>
+        <img src="../images/chapron-logo.png" id="sl" alt="chapron logo"> The Chapron Collection <span>Copyright 2024 Guido J.Verschoor</span>
+      </p>
+    </footer>
+    <script src="../js/script.js"></script>
+    <script>
+      function myAnchor(value){
+        var top = document.getElementById(value).offsetTop;
+        window.scrollTo(0, top);
+        //document.getElementById(value).scrollIntoView();
+      }
+   </script>
+  </body>
+</html>
