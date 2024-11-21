@@ -1,0 +1,394 @@
+html {
+  background: #32403c;
+  height: 100%;
+}
+
+body {
+  max-width: 1980px;
+  min-width: 250px;
+  margin: auto;
+
+}
+
+header {
+  width: 100%;
+  height: 17vh;
+  border-bottom: 1px solid rgba(81, 62, 17, 0.80);
+  background: linear-gradient(180deg, rgba(44, 75, 80, 0.60) 12.5%, rgba(72, 123, 131, 0.30) 58.5%,
+      rgba(86, 147, 157, 0.30) 73.5%, rgba(44, 75, 80, 0.60) 100%);
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  color: #FFB600;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #880000;
+  font-family: Scriptina;
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: auto;
+
+
+}
+
+@font-face {
+  font-family: Scriptina;
+  src: url(../fonts/SCRIPTIN.ttf);
+  src: url(../fonts/SCRIPTIN.woff) format("woff");
+  
+}
+
+@font-face {
+  font-family: opensans;
+  src: url(../fonts/open-sans.ttf);
+  src: url(../fonts/open-sans.woff);
+}
+
+.heading1 {
+  width: 30%;
+  float: left;
+  margin-left: 5%;
+}
+
+
+.nav {
+
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  float: right;
+
+}
+
+.global-nav {
+  width: 100%;
+  height: auto;
+  clear: both;
+
+}
+
+li {
+  display: block;
+  float: left;
+  width: 15%;
+  text-align: center;
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: rgba(26, 26, 26, 0.40);
+  font-family: "opensans";
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 8%;
+
+
+}
+
+a {
+  color: #DBCA98;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #F4EACC;
+  font-size: 1.25vw;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+
+
+a:hover {
+  box-shadow: inset 200px 0 0 0 #F4EACC;
+  color: black;
+  padding: 0.75%;
+  transition-duration: 0.2s;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #880000;
+  border-top: 1px solid #880000;
+  box-sizing: border-box;
+  padding: 5%;
+  margin-top: 5%;
+  border-radius: 0px 200px 0px 0px;
+  border-top: 10px solid rgba(223, 175, 55, 0.5);
+  box-sizing: border-box;
+  background: #6B9186;
+ 
+
+
+}
+.grid{
+  
+  
+  
+
+}
+
+#admin {
+  width: 2%;
+}
+
+.form-body {
+  margin: auto;
+  margin-top: 5%;
+  border: 2px solid #DFAF37;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 80%;
+  padding: 5%;
+  background-color:#32403c;
+}
+
+.two {
+  margin-top: 2%;
+  font-family: opensans;
+}
+.two option{font-family: opensans; }
+
+.one {
+  width: 20%;
+  margin: auto;
+  margin-top: 5%;
+  margin-left: 80%;
+}
+
+.one input {
+  background-color: #4D6D65;
+  color: white;
+}
+
+fieldset {
+  color: #DBCA98;
+  font-family: "opensans";
+  border: none;
+}
+
+input {
+  width: 100%;
+  height: 35px;
+  border: 2px solid #DFAF37;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  border: 2px solid #DFAF37;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+footer,
+footer span {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  color: #F4EACC;
+  font-family: "opensans";
+  font-size: large;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/*--mobile-nav--*/
+.media-nav {
+  display: none;
+}
+
+footer span {
+  margin-left: 15%;
+}
+
+.media-nav {
+  display: none;
+}
+
+.Carousel {
+  display: none;
+}
+
+.list-wrapper {
+  display: block;
+}
+
+#sl {
+  width: 10%;
+}
+
+/*------1024 screen size-------*/
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 12vh;
+  }
+
+  a { font-size: 2.2vw;}
+
+  footer {
+    margin-top: 5%;
+    height: auto;
+  }
+
+
+}
+
+/*------640 screen size-------*/
+
+@media screen and (max-width: 640px) {
+
+  .nav {
+    display: none;
+  }
+
+  .heading1 {
+    display: none;
+  }
+
+  header {
+    margin: auto;
+  }
+
+  .main {
+    margin-top: 15%;
+  }
+
+  .media-nav {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    background: transparent;
+    z-index: 1;
+
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    background: #32403c;
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid #DFAF37;
+    box-sizing: border-box;
+    padding: 2%;
+    float: right;
+    clear: both;
+
+
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: #DBCA98;
+    padding: 2%;
+    text-decoration: none;
+    font-size:x-large;
+    font-family: "opensans";
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #32403c;
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    width: auto;
+
+
+  }
+
+  /* Add a  background color on mouse-over */
+  .topnav a:hover {
+    box-shadow: none;
+    color: black;
+    background-color: #F4EACC;
+    transition-duration: 0.1s;
+
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+
+    color: #DFAF37;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #880000;
+    font-family: Scriptina;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    font-size: 8vw;
+    background: linear-gradient(#32403c, #4D6D65);
+    padding: 2%;
+
+  }
+
+  .one input {
+    background-color: #880000;
+    color: white;
+  }
+
+  .one {
+    width: 35%;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  .pur {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background-color: #32403c;
+    margin: auto;
+
+
+  }
+
+  .pur p {
+    font-family: "opensans";
+
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+    border-radius: 0.25%;
+    border: 1px solid #DFAF37;
+    box-sizing: border-box;
+    padding: 1%;
+
+  }
+
+  .pur a {
+    font-size: large;
+  }
+
+  footer {
+    visibility: hidden;
+    font-size: 0.1vw;
+  }
+
+  footer span {
+    margin-left: 25%;
+    font-size: 3vw;
+    visibility: visible;
+  }
+
+  #sl {
+    display: none;
+  }
+
+}
